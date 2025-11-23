@@ -224,7 +224,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 FɪʟᴇSɪᴢᴇ : {file_size} 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗ 
 ➲ <a href="https://t.me/+96eI_oq9Tes0YmZl">𝗢𝗧𝗧 𝗥𝗘𝗟𝗘𝗔𝗦𝗘 𝗠𝗢𝗩𝗜𝗘</a><br>
