@@ -81,13 +81,13 @@ async def start(client, message):
         await dlt.delete()
         return         
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        buttons = [
+        buttons = [[
                 InlineKeyboardButton('🖥 𝙊𝙏𝙏 𝙈𝙤𝙫𝙞𝙚 𝙐𝙋𝘿𝘼𝙏𝙀𝙎  🖥', url=f'https://t.me/+5iw_dWArjYg2YTBl')
                ],[
                 InlineKeyboardButton('⚙ 𝙉𝙀𝙒 𝙈𝙊𝙑𝙄𝙀𝙎 ⚙', url=f'https://www.instagram.com/new_ott__updates?igsh=enI5ZzIzcXuzd3Bl')
               ],[
                 InlineKeyboardButton('📤 𝙇𝘼𝙎𝙏𝙀𝙎𝙏 𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝘿 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📤', url="https://t.me/+5iw_dWArjYg2YTBl"),
-        ]
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
         await asyncio.sleep(2) 
